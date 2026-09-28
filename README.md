@@ -5,8 +5,9 @@ sin frameworks ni dependencias externas de ejecución. Presenta información
 académica y profesional, habilidades técnicas, proyectos destacados y un
 Design System documentado con los componentes reales del sitio.
 
-**Sitio publicado:** `https://<tu-usuario>.github.io/<nombre-del-repositorio>/`
-*(actualiza esta línea con tu URL real de GitHub Pages una vez publicado).*
+**Sitio publicado:** https://anghelloalmeida.github.io/portafolio/
+
+**Repositorio:** https://github.com/AnghelloAlmeida/portafolio
 
 ---
 
@@ -36,10 +37,13 @@ portfolio/
     └── img/
         ├── avatar.jpg
         ├── favicon.svg
-        └── projects/
-            ├── easyrent.jpg
-            ├── guiospro.jpg
-            └── galaxias.jpg
+        ├── projects/
+        │   ├── easyrent.jpg
+        │   ├── guiospro.jpg
+        │   └── galaxias.jpg
+        └── screenshots/
+            ├── inicio.jpg
+            └── proyectos-oscuro.jpg
 ```
 
 > ⚠️ Las rutas dentro de `index.html` (`css/styles.css`, `js/script.js`,
@@ -86,17 +90,15 @@ y visitar `http://localhost:8080`.
 5. Verifica en una ventana de incógnito que CSS, JavaScript e imágenes carguen,
    que la navegación funcione y que la consola no muestre errores.
 
-## Personalización pendiente
-
-- Reemplazar los enlaces de GitHub de cada proyecto (EasyRent, GUIOSPRO FLOSS Web, clasificador de galaxias) por el repositorio específico de cada uno; actualmente los tres apuntan al perfil general.
-- Actualizar la URL de LinkedIn (`https://www.linkedin.com`) con el enlace real del perfil.
-- Añadir enlaces de demo desplegada cuando estén disponibles (`Enlace al proyecto desplegado`).
-- Actualizar la línea del "Sitio publicado" arriba con la URL real una vez publicado en GitHub Pages.
-
 ## Capturas de pantalla
 
-*(Añade aquí 2-3 capturas del portafolio ya publicado: vista de inicio, vista
-de proyectos y vista móvil, por ejemplo como `assets/img/screenshots/`.)*
+**Inicio (tema claro)**
+
+![Vista de inicio del portafolio](assets/img/screenshots/inicio.jpg)
+
+**Proyectos destacados (tema oscuro)**
+
+![Sección de proyectos en tema oscuro](assets/img/screenshots/proyectos-oscuro.jpg)
 
 ---
 
